@@ -64,13 +64,13 @@ function App() {
         ),
         React.createElement('div', { className: 'poinKanan' },
         React.createElement('p', { onClick: () => toggleAccordion('angkatan') }, 'Angkatan :', accordion.angkatan ? ' 2022/2023' : ' Klik untuk melihat'),
-        accordion.angkatan && React.createElement('p', null, '2022/2023'),
+        accordion.angkatan && React.createElement('p', null, ''),
         React.createElement('p', { onClick: () => toggleAccordion('jalurSukses') }, 'Jalur Sukses :', accordion.jalurSukses ? ' Langsung Sukses' : ' Klik untuk melihat'),
-        accordion.jalurSukses && React.createElement('p', null, 'Langsung Sukses'),
+        accordion.jalurSukses && React.createElement('p', null, ''),
         React.createElement('p', { onClick: () => toggleAccordion('jurusan') }, 'Jurusan :', accordion.jurusan ? ' Informatika - UC Makassar' : ' Klik untuk melihat'),
-        accordion.jurusan && React.createElement('p', null, 'Informatika - UC Makassar'),
+        accordion.jurusan && React.createElement('p', null, ''),
         React.createElement('p', { onClick: () => toggleAccordion('hobi') }, 'Hobi :', accordion.hobi ? ' Makan, Tidur' : ' Klik untuk melihat'),
-        accordion.hobi && React.createElement('p', null, 'Makan, Tidur')
+        accordion.hobi && React.createElement('p', null, '')
         ),
       ),
       React.createElement(
