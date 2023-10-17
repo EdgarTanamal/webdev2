@@ -1,38 +1,77 @@
+* {
+  * {
+    box-sizing: border-box;
+    background-color: #f2f2f2; /* Ganti warna latar belakang */
+    color: #333; /* Ganti warna teks */
+    font-family: sans-serif;
+  }
+}
+
+
 .App {
-  text-align: center;
+  font-family: sans-serif;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section1{
+  width: 100%;
+  height: fit-content;
+  border-radius: 4px;
+  border-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Foto{
+  width: 40%;
+  min-width: 200pt;
+  height: auto;
+  border-radius: 4px;
+  border-color: white;
+  float: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.nama{
+  width: 60%;
+  float: right;
+  height: 235px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  margin-top: 60px;
+  border-radius: 4px;
 }
 
-.App-link {
-  color: #61dafb;
+.section2{
+  width: 100%;
+  height: fit-content;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.poinKiri, .poinKanan {
+  /* Ubah margin, tambahkan efek bayangan, dan padding */
+  width: 40%;
+  margin: 10px;
+  float: left;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.organisasi{
+  width: 60%; /* Lebar kotak */
+  float: left;
+  background-color: #fff; /* Warna latar belakang kotak */
+  border-radius: 4px; /* Sudut bulat pada kotak */
+  padding: 20px; /* Padding dalam kotak */
+  margin: 10px; /* Margin untuk menjaga jarak dari elemen lain */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+  color: #333; /* Warna teks di dalam kotak */
+}
+
+.organisasipenjelas {
+  width: 100%;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.judulorganisasi {
+  font-size: 18px;
 }
